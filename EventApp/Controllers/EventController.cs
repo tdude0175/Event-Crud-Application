@@ -9,7 +9,7 @@ using EventApp.Models;
 
 namespace EventApp.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Events")]
     [ApiController]
     public class EventController : ControllerBase
     {
@@ -82,7 +82,7 @@ namespace EventApp.Controllers
             _context.Events.Add(eventModel);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetEventModel", new { id = eventModel.Id }, eventModel);
+            return CreatedAtAction(nameof(GetEventModel), new { id = eventModel.Id }, eventModel);
         }
 
         // DELETE: api/Event/5
