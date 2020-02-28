@@ -15,3 +15,15 @@ Created WWWRoot Access
 Created Index.html
 
 created Javascript file for index and made sure could be accessed
+
+Feb 27th
+
+Added postgres Database for information storage
+
+Set up basic page layout
+
+(considering doing single page thus no need for nav bar)
+
+Added basic javascript for rendering Events on pages
+
+

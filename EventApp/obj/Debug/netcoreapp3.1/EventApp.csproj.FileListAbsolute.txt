@@ -128,3 +128,7 @@
 /home/student/PersonalProjects/resumeBuilder/2020FebProjects/Event-Crud-Application/EventApp/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/student/PersonalProjects/resumeBuilder/2020FebProjects/Event-Crud-Application/EventApp/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/student/PersonalProjects/resumeBuilder/2020FebProjects/Event-Crud-Application/EventApp/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/student/PersonalProjects/resumeBuilder/2020FebProjects/Event-Crud-Application/EventApp/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/home/student/PersonalProjects/resumeBuilder/2020FebProjects/Event-Crud-Application/EventApp/bin/Debug/netcoreapp3.1/Npgsql.dll
+/home/student/PersonalProjects/resumeBuilder/2020FebProjects/Event-Crud-Application/EventApp/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/student/PersonalProjects/resumeBuilder/2020FebProjects/Event-Crud-Application/EventApp/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
