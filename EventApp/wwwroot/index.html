@@ -8,18 +8,20 @@
     <div style="background-color: lightblue;"> <a href="">link</a></div>
     <div>
         <div style="background-color: lightcyan;" id="EventTable">
-            <div style="border: 1px solid black;">Upcoming Events</div>
-            <div style="border: 1px solid black;">Past Events</div>
-            <div style="border: 1px solid black;">Search</div>
+            <div onclick="ChangeDisplay(true)" style="width: 25%; border: 1px solid black;">Upcoming Events</div>
+            <div onclick="ChangeDisplay(false)" style="width: 25%; border: 1px solid black;">Past Events</div>
+            <div style="width: 25%; border: 1px solid black;">Search <input type="text" placeholder="Search"></div>
             <div id="EventContainer"><h3>Events</h3></div>
         </div>
         <div style="background-color: lightseagreen;" id="EventForm">
-            <form action="#">
-                <p><input type="text" placeholder="Location"></p>
-                <p><input type="text" ></p>
-                <p><Label>Are you going?</Label><input type="radio" name="" id=""></p>
-                <p><input type="text" placeholder="Event Host"></p>
-                <p><input type="textarea" placeholder="Anything you need to know about the event"></p>
+            <form action="" onsubmit="submitEvent()">
+                <p><input type="text" placeholder="Title" name="" id="titleToSubmit"></p>
+                <p><input type="text" placeholder="Location" id="locationToSubmit"></p>
+                <p><input type="datetime-local" id='dateTimeToSubmit' ></p>
+                <p>Are you going?:<Label>Yes</Label><input id="isAttending" type="radio" name="isAttending" value="Yes">
+                    <Label>No</Label><input id="isNotAttending" type="radio" name="isAttending" value="No"></p>
+                <p><input type="text" placeholder="Event Host" id="hostToSubmit"></p>
+                <p><input type="textarea" placeholder="Anything you need to know about the event" id="eventNotesToSubmit"></p>
                 <button>Submit</button>
             </form>
         </div>
